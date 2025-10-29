@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: n8n-public
+    env: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
